@@ -23,3 +23,8 @@ cut3+ 10 / 32389 = 0.03%
 1ep在pas14+open中一阶学习结果  
 1order_UP：UR：UF = 92.21:90.06:91.40  
 
+2016/11/1  
+完成1ec的二阶形式，其他不变，在int_span_label中搜索zuodianheyoudiuan左点和右点
+trick：和1plannar不同，有可能存在r-rsp的边但是是cross边因此造成无法完全decode  
+solution：int_span_label搜索时增加考虑 int_span_label + int_span_nolabel,让右端点的cross边可被decode  
+
