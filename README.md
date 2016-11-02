@@ -28,3 +28,7 @@ cut3+ 10 / 32389 = 0.03%
 trick：和1plannar不同，有可能存在r-rsp的边但是是cross边因此造成无法完全decode  
 solution：int_span_label搜索时增加考虑 int_span_label + int_span_nolabel,让右端点的cross边可被decode  
 
+2016/11/2  
+注意二阶的longlong  
+
+
