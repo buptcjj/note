@@ -30,5 +30,6 @@ solution：int_span_label搜索时增加考虑 int_span_label + int_span_nolabel
 
 2016/11/2  
 注意二阶的longlong  
+二阶结果 UP:UR:UF = 92.4:91.8:92.1
 
 
