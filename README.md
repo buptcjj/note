@@ -43,7 +43,7 @@ UP:UR:UF = 92.57:91.22:91.89
 
 2016/11/12  
 增加1阶feature  
-define leftmost,rightmost word of C's subtree as lw,rw
+define leftmost,rightmost word of C's subtree as lw,rw  
 lwword,lwtag,lwword+lwtag , same as rw,lw-1,rw+1
 UP:UR:UF = 92.76：91.23:91.99
 
