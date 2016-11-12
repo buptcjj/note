@@ -30,16 +30,23 @@ solution：int_span_label搜索时增加考虑 int_span_label + int_span_nolabel
 
 2016/11/2  
 注意二阶的longlong  
-二阶结果 UP:UR:UF = 92.4:91.8:92.1
+二阶结果 UP:UR:UF = 92.4:91.8:92.1  
 
-2016/11/11
-增加1阶feature
-Psubcat，Psubcat+Cword，Csubcat，Csubcat+Pword
-P-lca's FPOSPath+Cword ,lca-C's FPOSPath+Pword ,
-P_1word,P1word,C_1word,C1word
-whether P connect C in tree P-C : 1 C-P : -1 
-P_1wPpCp,P_1pPwCp,P_1pPpCw , same as PP1C,PC_1C,PCC1
-UP:UR:UF = 92.57:91.22:91.89
+2016/11/11  
+增加1阶feature  
+Psubcat，Psubcat+Cword，Csubcat，Csubcat+Pword  
+P-lca's FPOSPath+Cword ,lca-C's FPOSPath+Pword   
+P_1word,P1word,C_1word,C1word  
+whether P connect C in tree P-C : 1 C-P : -1  
+P_1wPpCp,P_1pPwCp,P_1pPpCw , same as PP1C,PC_1C,PCC1  
+UP:UR:UF = 92.57:91.22:91.89  
+
+2016/11/12  
+增加1阶feature  
+define leftmost,rightmost word of C's subtree as lw,rw
+lwword,lwtag,lwword+lwtag , same as rw,lw-1,rw+1
+UP:UR:UF = 92.76：91.23:91.99
+
 
 
 
