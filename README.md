@@ -46,8 +46,16 @@ UP:UR:UF = 92.57:91.22:91.89
 define leftmost,rightmost word of C's subtree as lw,rw  
 lwword,lwtag,lwword+lwtag , same as rw,lw-1,rw+1
 UP:UR:UF = 92.76：91.23:91.99
+2阶结果  
+UP:UR:UF = 92.67:91.97:92.32
 
-
+2016/11/17  
+修改bug，之前数据都是错的，因为先把dev预decode了一遍，所以recall会虚假上升，precious几乎不变  
+1ec 少特征的1阶： 92.17:90.59:91.37  
+1ec 多特征的1阶： 92.72:90.96:91.83  
+1ec 少特征的2阶： 92.39:91.68:92.04  
+1ec 多特征的2阶： 92.69:92.01:92.35  
+1阶原始还行，多特征的降得比较多，二阶基本还行，与原先持平，没有想象中降得那么多  
 
 
 
