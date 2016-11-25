@@ -44,8 +44,8 @@ UP:UR:UF = 92.57:91.22:91.89
 2016/11/12  
 增加1阶feature  
 define leftmost,rightmost word of C's subtree as lw,rw  
-lwword,lwtag,lwword+lwtag , same as rw,lw-1,rw+1
-UP:UR:UF = 92.76：91.23:91.99
+lwword,lwtag,lwword+lwtag , same as rw,lw-1,rw+1  
+UP:UR:UF = 92.76：91.23:91.99  
 2阶结果  
 UP:UR:UF = 92.67:91.97:92.32
 
@@ -56,6 +56,13 @@ UP:UR:UF = 92.67:91.97:92.32
 1ec 少特征的2阶： 92.39:91.68:92.04  
 1ec 多特征的2阶： 92.69:92.01:92.35  
 1阶原始还行，多特征的降得比较多，二阶基本还行，与原先持平，没有想象中降得那么多  
+
+2016/11/25
+增加了一阶特征的label，高阶还是只有方向  
+1ec_1L more  U 93.08:90.87:91.96 L 91.96:89.77:90.85
+1ec_2L less  U 92.52:91.64:92.08 L 91.13:90.27:90.70
+1ec_2L more  U 92.95:91.84:92.39 L 91.71:90.62:91.16  
+
 
 
 
