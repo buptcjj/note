@@ -82,9 +82,9 @@ tst_psdtr 94.23 : 91.13 : 92.66
 dev_psdtr 94.32 : 91.40 : 92.83  
 dev_mate  93.96 : 91.52 : 92.73  
 
-2016/12/27 阶段性成果  
-dog | bird | cat
-----|------|----
-foo | foo  | foo
-bar | bar  | bar
-baz | baz  | baz
+2016/12/27 阶段性成果  
+| dog | bird | cat | 
+| ----|------|---- |
+| foo | foo  | foo | 
+| bar | bar  | bar | 
+| baz | baz  | baz |  
