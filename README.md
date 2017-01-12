@@ -83,5 +83,16 @@ dev_psdtr 94.32 : 91.40 : 92.83
 dev_mate  93.96 : 91.52 : 92.73  
 
 2017/1/12  
-修改杜彦涛之前tree+graph的对偶分解部分，对enccg进行训练
-    Tabel
+修改杜彦涛之前tree+graph的对偶分解部分，对enccg进行训练  
+dev_1L  
+iter0 : Graph:93.78:91.60:92.67  Tree:84.37  Merge:90.30:92.70:91.49  
+iter200	: Graph:93.77:92.09:92.92  Tree:85.59  Merge:93.40:91.28:92.33  
+dev_2gc  
+iter0 :	Graph:93.42:92.34:92.87  Tree:84.37  Merge:90.17:93.08:91.60  
+iter200	Graph: 93.34:92.38:92.86  Tree:85.79  Merge:93.22:91.63:92.42  
+tst_1L  
+iter0 : Graph:93.85:91.74:92.78  Tree:84.35  Merge:90.49:92.66:91.56  
+iter200 : Graph:93.83:92.06:92.94  Tree:85.68  Merge:93.69:91.32:92.49  
+tst_2gc  
+iter0 : Graph:93.40:92.37:92.89  Tree:84.35  Merge:90.33:93.08:91.69  
+iter200 : Graph:93.43:92.47:92.95  Tree:85.91  Merge:93.54:91.82:92.67  
